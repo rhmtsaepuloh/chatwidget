@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly toast components renders if conditional display false 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly toast components renders if conditional display true 1`] = `ShallowWrapper {}`;

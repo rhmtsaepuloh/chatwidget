@@ -1,0 +1,153 @@
+#iframe-chataja {
+  width: 350px;
+  height: calc(100% - 100px);
+  float: right;
+  min-height: 250px;
+  max-height: 704px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.chataja-logo {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and ( min-width: 1350px ) and (min-height: 620px) {
+  #iframe-chataja {
+    height: calc(100% - 150px);
+  }
+}
+
+@media screen and ( min-width: 1366px ) {
+  #iframe-chataja {
+    height: calc(100% - 100px);
+  }
+}
+
+
+@media screen and ( min-height: 800px ) and ( max-height: 870px ){
+  #iframe-chataja {
+    height: 100% !important;
+    top: 1% !important;
+  }
+}
+@media screen and ( height: 768px ) and ( width: 1024px ){
+  #iframe-chataja {
+    height: 86% !important;
+    top: 1% !important;
+  }
+}
+@media screen and ( height: 720px ) and ( width: 540px ){
+  #iframe-chataja {
+    height: 88% !important;
+    top: 1% !important;
+  }
+}
+@media screen and ( width: 720px ) and ( height: 540px ){
+  #iframe-chataja {
+    height: 88% !important;
+    width: 300px;
+    top: 1% !important;
+  }
+}
+@media screen and ( min-height: 731px ) and ( max-height: 731px ){
+  #iframe-chataja {
+    height: 87% !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .chataja-close {
+    display: none;
+  }
+  #iframe-chataja {
+    width: 100%;
+    height: 85%;
+    right: 0;
+    top: 0;
+  }
+  #chataja-img-logo2 {
+    display: none;
+  }
+
+  .chataja-btn2 {
+    cursor: pointer;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    z-index: 999999;
+    display: none;
+  }
+}
+.widget-chat-support .chat-popup {
+  width: 100%;
+  display: none;
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  /* Add styles to the form container */
+}
+.widget-chat-support .chat-popup .form-container {
+  background-color: white;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-header {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #c7c7c7;
+  box-sizing: border-box;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-content {
+  max-height: 800px;
+  height: 400px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+.widget-chat-support .chat-popup .form-container .chataja-logo {
+  height: 50px;
+  width: 50px;
+  margin: 0px 12px;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-input {
+  border: none;
+  width: 70%;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-footer {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid #c7c7c7;
+  padding: 0px 12px;
+  box-sizing: border-box;
+}
+.widget-chat-support .chataja-btn {
+  box-shadow: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 13px 20px;
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  z-index: 100;
+  margin-top: 10px;
+}
+.widget-chat-support .chataja-btn .chataja-logo {
+  height: 50px;
+  width: 50px;
+  margin: 0px 12px;
+}
+.widget-chat-support textarea:focus,
+.widget-chat-support input:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */

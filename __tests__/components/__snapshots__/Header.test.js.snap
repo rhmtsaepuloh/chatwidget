@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly header components renders with contain data selector 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly header components renders without contain data selector 1`] = `ShallowWrapper {}`;

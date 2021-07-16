@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/button-chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Chat Aja</title>
+  </head>
+  <body>
+    <div>
+      <div class="widget-chat-support">
+        <div class="chat-popup" id="myForm" style="display: block;">
+          <form class="form-container">
+            <div class="chataja-widget-header">
+              <img src="./assets/logo.png" alt="logo" class="chataja-logo" />
+            </div>
+            <div class="chataja-widget-content"></div>
+            <div class="chataja-widget-footer">
+              <input
+                type="text"
+                class="chataja-widget-input"
+                placeholder="Kirim pesan..."
+              />
+              <div class="image-upload">
+                <label for="file-input">
+                  <i class="fa fa-file-text-o"></i>
+                </label>
+
+                <input id="file-input" type="file" style="display: none;" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+        document.getElementById("chataja-btn-logo").onclick = () => { closeForm() };
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+        document.getElementById("chataja-btn-logo").onclick = () => { openForm() };
+      }
+    </script>
+  </body>
+</html>

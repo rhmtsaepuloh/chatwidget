@@ -1,0 +1,8 @@
+/* .master-embed {
+  display: none;
+} */
+#iframe-chataja {
+  width: 376px;
+  height: 604px;
+  float: right;
+}

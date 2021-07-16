@@ -1,0 +1,85 @@
+.chataja-close-logo {
+  z-index: 9999999;
+  top: 10px;
+  right: 10px;
+  position: fixed;
+  display: none;
+}
+.chataja-btn {
+  background-color: #F9565E;
+  cursor: pointer;
+  position: fixed;
+  display: table;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999999;
+  display:block;
+  border-radius: 100%;
+  border: 10px solid #F9565E;
+}
+
+.chataja-btn-close {
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  color: white;
+  right: 20px;
+  z-index: 999999;
+  display: none;
+}
+.frame {
+  display: none;
+}
+
+@media screen and ( min-height: 1024px ) and ( max-height: 1400px ){
+  .frame2 {
+    bottom: 10% !important;
+  }
+}
+
+.frame2 {
+  width: 362px;
+  max-height: calc(100vh - 110px);
+  height: 550px;
+  position: fixed;
+  opacity: 1;
+  border: 0px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-property: opacity, top, bottom;
+  z-index: 999999;
+  right: 10px;
+  bottom: 10%;
+}
+
+@media screen and ( height: 568px ) and ( width: 320px ){
+  .chataja-btn .chataja-logo {
+    max-height: 80px;
+    max-width: 80px;
+  }
+}
+
+@media screen and ( height: 720px ) and ( width: 540px ){
+  .chataja-btn {
+    bottom: -16px;
+    right: -10px;
+  }
+
+  .chataja-btn .chataja-logo {
+    max-height: 80px;
+    max-width: 80px;
+  }
+}
+
+@media screen and ( width: 720px ) and ( height: 540px ){
+  .chataja-btn {
+    /* bottom: -16px;
+    right: -10px; */
+  }
+
+  .chataja-btn .chataja-logo {
+    max-height: 60px;
+    max-width: 60px;
+  }
+}
+/*# sourceMappingURL=button-chat.css.map */

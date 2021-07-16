@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly input components renders if displayEmoji is false 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly input components renders if displayEmoji is true 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly input components renders with value and urlImagePreview 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly input components renders without value and urlImagePreview 1`] = `ShallowWrapper {}`;

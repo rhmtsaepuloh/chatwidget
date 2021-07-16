@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly button components renders if conditional icon false 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly button components renders if conditional icon true 1`] = `ShallowWrapper {}`;

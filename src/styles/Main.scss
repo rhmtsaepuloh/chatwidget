@@ -1,0 +1,84 @@
+.wrapper-register {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  .main {
+    max-height: 400px;
+    // @media (max-height: 450px) {
+    //   padding-bottom: 80px;
+    // }
+    @media (max-height: 541px) {
+      margin: 0px;
+      height: 250px;
+    }
+    @media (min-height: 541px) and (max-height: 604px) {
+      margin: 0px;
+      height: 302px;
+    }
+    @media (min-height: 604px) and (max-height: 704px) {
+      margin: 0px;
+      height: 352px;
+    }
+    @media (min-height: 704px) and (max-height: 804px) {
+      margin: 0px;
+      height: 432px;
+    }
+    @media (min-height: 804px) {
+      margin: 0px;
+      height: 502px;
+    }
+    .icon-chat {
+      @media (max-height: 504px) {
+        margin-top: 10px;
+      }
+      @media (min-height: 504px) and (max-height: 604px) {
+        margin-top: 50px;
+      }
+      @media (min-height: 604px) and (max-height: 704px) {
+        margin-top: 80px;
+      }
+      @media (min-height: 704px) and (max-height: 804px) {
+        margin-top: 160px;
+      }
+      @media (min-height: 804px) {
+        margin-top: 210px;
+      }
+    }
+    .footer-background {
+      background: #fff;
+      border-radius: 0px 0px 20px 20px;
+      margin: auto;
+      @media (max-height: 500px) {
+        border-radius: 0px;
+      }
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      @media (min-width: 768px) {
+        width: 378px;
+      }
+    }
+    div {
+      .text-message {
+        font-size: 15px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  .card {
+    margin-top: -200px;
+    background: #fff;
+  }
+
+  .emoji-input {
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      width: 378px;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly render document progress components renders if progress > 0 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly render document progress components renders if progress is 100 1`] = `ShallowWrapper {}`;

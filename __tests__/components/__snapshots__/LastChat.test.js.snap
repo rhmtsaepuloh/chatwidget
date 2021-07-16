@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly lastchat components renders if loading false and last message contain data 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly lastchat components renders if loading false and last message is empty 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly lastchat components renders if loading true and last message contain data 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly lastchat components renders if loading true and last message is empty 1`] = `ShallowWrapper {}`;

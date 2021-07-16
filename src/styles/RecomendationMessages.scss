@@ -1,0 +1,54 @@
+.recomendation {
+  position: fixed;
+  bottom: 70px;
+  background: #fff;
+  padding: 8px;
+  border-bottom: solid 1px #f3f3f3;
+  height: 50px;
+  @media (max-width: 768px) {
+    width: 100% !important;
+  }
+  @media (min-width: 768px) {
+    width: 378px !important;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 10px;
+    background: #f2f6fd;
+    /* Chat Widget / WHITE 60 */
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 5px;
+    .text {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #4f4f4f;
+    }
+  }
+  .slider-frame {
+    padding-top: 2px !important;
+    padding-left: 25px !important;
+  }
+  .arrow-button-left {
+    height: 40px;
+    margin-top: -12px;
+    margin-left: -10px;
+  }
+  .arrow-button-right {
+    height: 40px;
+    margin-top: -12px;
+    margin-right: -10px;
+  }
+  .slider {
+    outline: none !important;
+  }
+}

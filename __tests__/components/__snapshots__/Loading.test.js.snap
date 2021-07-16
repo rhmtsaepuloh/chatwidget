@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly loading components renders display is false 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly loading components renders display is true 1`] = `ShallowWrapper {}`;

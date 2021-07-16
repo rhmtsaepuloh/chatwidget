@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly recomendation messages components render if recomended data is empty 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly recomendation messages components render if recomended data not empty 1`] = `ShallowWrapper {}`;

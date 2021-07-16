@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly preview image components renders file doc 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly preview image components renders file docx 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly preview image components renders file image 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly preview image components renders file pdf 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly preview image components renders file xls 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly preview image components renders file xlsx 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,38 @@
+.header {
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  height: 90px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    width: 378px;
+  }
+  .avatarIcon {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin: 0px 8px;
+  }
+  div {
+    // @media (max-width: 378px) {
+    //   width: 50%;
+    // }
+    .text-koperansel {
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+      white-space: nowrap;
+      width: 95%;
+    }
+    .text-online {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}

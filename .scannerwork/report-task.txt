@@ -1,0 +1,6 @@
+projectKey=chataja-widget-frontend
+serverUrl=https://sonarqube.playcourt.id
+serverVersion=7.9.3.33349
+dashboardUrl=https://sonarqube.playcourt.id/dashboard?id=chataja-widget-frontend
+ceTaskId=AXaEbHZ8bnA0j-S3xU_Y
+ceTaskUrl=https://sonarqube.playcourt.id/api/ce/task?id=AXaEbHZ8bnA0j-S3xU_Y

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly messages components renders if displayEmoji is false and urlImagePreview is not available 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders if displayEmoji is true and urlImagePreview is available 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders if file upload is progress on admin 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders if file upload is progress on user 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders if messages data is null 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders messages is progress on admin 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders messages is progress on user 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders messages on admin 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly messages components renders messages on user 1`] = `ShallowWrapper {}`;

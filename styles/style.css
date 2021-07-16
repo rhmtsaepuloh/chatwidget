@@ -1,0 +1,75 @@
+.widget-chat-support {
+  /* The popup chat - hidden by default */
+}
+.widget-chat-support .chat-popup {
+  width: 100%;
+  display: none;
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  /* Add styles to the form container */
+}
+.widget-chat-support .chat-popup .form-container {
+  background-color: white;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-header {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #c7c7c7;
+  box-sizing: border-box;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-content {
+  max-height: 800px;
+  height: 400px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+.widget-chat-support .chat-popup .form-container .chataja-logo {
+  height: 50px;
+  width: 50px;
+  margin: 0px 12px;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-input {
+  border: none;
+  width: 70%;
+}
+.widget-chat-support .chat-popup .form-container .chataja-widget-footer {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid #c7c7c7;
+  padding: 0px 12px;
+  box-sizing: border-box;
+}
+.widget-chat-support .chataja-btn {
+  box-shadow: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  border-radius: 30px;
+  z-index: 100;
+  margin-top: 10px;
+}
+.widget-chat-support .chataja-btn .chataja-logo {
+  height: 50px;
+  width: 50px;
+  margin: 0px 12px;
+}
+.widget-chat-support textarea:focus,
+.widget-chat-support input:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */

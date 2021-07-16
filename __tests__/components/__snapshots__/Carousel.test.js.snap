@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly carousel components renders 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly carousel components renders if item isEmpty 1`] = `ShallowWrapper {}`;

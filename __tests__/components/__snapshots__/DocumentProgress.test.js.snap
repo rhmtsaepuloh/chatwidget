@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly document progress components renders file doc 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly document progress components renders file docx 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly document progress components renders file image 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly document progress components renders file pdf 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly document progress components renders file txt 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly document progress components renders file xls 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly document progress components renders file xlsx 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly document progress components renders if not exist extension 1`] = `ShallowWrapper {}`;

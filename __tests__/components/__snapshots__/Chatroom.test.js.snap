@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly button components renders if displayEmoji is false and urlImagePreview is not available 1`] = `ShallowWrapper {}`;
+
+exports[`render correctly button components renders if displayEmoji is true and urlImagePreview is available 1`] = `ShallowWrapper {}`;
